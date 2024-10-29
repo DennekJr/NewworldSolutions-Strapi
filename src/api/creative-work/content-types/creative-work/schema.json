@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "creative_works",
+  "info": {
+    "singularName": "creative-work",
+    "pluralName": "creative-works",
+    "displayName": "creativeWork",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blueTitle": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "departments": {
+      "type": "json"
+    },
+    "employees": {
+      "type": "json"
+    }
+  }
+}
